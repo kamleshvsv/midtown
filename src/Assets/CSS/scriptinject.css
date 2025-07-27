@@ -1,0 +1,311 @@
+.script-container {
+  padding: 30px 30px;
+}
+
+/* banner */
+.script-banner__content {
+  max-width: 650px;
+  padding: 2rem 3rem;
+  border-radius: 8px;
+}
+
+.script-banner__heading {
+  font-size: 55px;
+  color: #515a6e;
+  line-height: 55px;
+  letter-spacing: -0.025em;
+  margin-bottom: 1rem;
+}
+
+.script-banner__heading .highlight-red {
+  color: #f02814;
+}
+
+.script-banner__subtext {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  max-width: 495px;
+}
+
+.script-inect-intro-section .container {
+  width: 100%;
+  padding: 10px 40px;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.script-inect-intro-section .container .inject-left-part .intro-text h2 {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  color: #5a5f6f;
+  font-size: 42px;
+  line-height: 48px;
+  margin: 0px 0px 10px;
+}
+
+.script-inect-intro-section .container .inject-left-part .intro-text p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #5a5f6f;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.script-inect-intro-section {
+  position: relative;
+  background: #e9e9eb;
+  overflow: hidden;
+  padding: 200px 15px 150px;
+  background-size: cover !important;
+  background-position: 60% center !important;
+  background-repeat: no-repeat !important;
+}
+
+.script-inect-intro-section .container .inject-left-part {
+  max-width: 683px;
+  width: 45%;
+}
+
+.scriptinject-mobile-image {
+  display: none;
+}
+.mobile-container {
+  display: none;
+}
+
+.scriptinject-benefits {
+  background-color: #343846; /* Dark background */
+  padding: 60px 20px;
+  color: #fff;
+}
+
+.scriptinject-benefits .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.inject-left-part {
+  flex: 1;
+  min-width: 300px;
+}
+
+.inject-left-part h2 {
+  font-size: 38px;
+  line-height: 1.4;
+  /* font-weight: 500; */
+  color: #fff;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.item h4 {
+  font-size: 24px;
+  /* font-weight: 600; */
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.item h4 span {
+  color: #f02814; /* Red numbering */
+  margin-right: 5px;
+}
+
+.item p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ddd;
+  padding-left: 25px;
+  margin: 0;
+}
+
+/* Responsive */
+
+/* Responsive */
+@media (max-width: 767px) {
+  .script-inect-intro-section .container {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .script-inect-intro-section .container {
+    padding: 0px;
+    margin: 0px;
+  }
+  .script-banner__content {
+    max-width: 100%;
+    text-align: center !important;
+    margin: 0 auto;
+    padding-top: 20%;
+    text-align: center;
+  }
+  .script-banner__heading {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .scriptinject-mobile-image {
+    display: block;
+    position: relative;
+    max-height: 380px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .columns {
+    grid-template-columns: 1fr;
+  }
+
+  .script-inect-intro-section {
+    background-image: none !important;
+    background: #fafafa;
+    padding: 0 !important;
+  }
+  .scriptinject-benefits .container {
+    flex-direction: column;
+  }
+  .script-inect-intro-section .container .scriptinject-mobile-image img {
+    height: 461px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center -80px;
+  }
+  .script-inect-intro-section .container .inject-left-part {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0px;
+  }
+  .script-inect-intro-section .container .inject-left-part .intro-text {
+    padding: 10px 20px;
+  }
+}
+
+.specialized-pharmacy {
+  text-align: center;
+  padding: 60px 0px;
+  background: #fff;
+}
+
+.specialized-pharmacy h2 {
+  text-align: center;
+  margin: 0 80px 32px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  color: #5a5f6f;
+  line-height: 48px;
+}
+.specialized-pharmacy .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.specialized-pharmacy .old-pharmacy,
+.specialized-pharmacy .optimize-pharmacy {
+  flex: 1 1 450px;
+}
+
+.specialized-pharmacy h4 {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  color: #343846;
+  font-size: 25px;
+  line-height: 48px;
+  margin: 0px 0px 23px;
+}
+.scriptinject-benefit-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px; /* space between items */
+}
+
+.scriptinject-benefit-item {
+  padding-left: 50px;
+  padding-bottom: 49px;
+  margin-bottom: 25px;
+  background: url("./../img/about/Shadow-btm.webp") no-repeat center bottom;
+  background-size: contain;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.scriptinject-benefit-item:before {
+  content: "";
+  background: url(./../img/scriptinject/CheckIcon-2.png) no-repeat;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+}
+
+.scriptinject-benefit-item-2 {
+  padding-left: 50px;
+  padding-bottom: 49px;
+  margin-bottom: 25px;
+  background: url("./../img/about/Shadow-btm.webp") no-repeat center bottom;
+  background-size: contain;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.scriptinject-benefit-item-2:before {
+  content: "";
+  background: url(./../img/about/CheckIcon.webp) no-repeat;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+}
+
+.scriptinject-benefit-item h5 {
+  font-size: 26px;
+  margin: 0px 0px 1px;
+}
+.scriptinject-benefit-item p {
+  font-size: 18px;
+  margin: 5px 0px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.scriptinject-benefit-item-2 h5 {
+  font-size: 26px;
+  margin: 0px 0px 1px;
+}
+.scriptinject-benefit-item-2 p {
+  font-size: 18px;
+  margin: 5px 0px;
+  font-weight: 300;
+  line-height: 25px;
+}
+.old-pharmacy ul {
+  padding: 0px;
+  list-style: none;
+}
+
+.optimize-pharmacy ul {
+  padding: 0px;
+  list-style: none;
+}
+
+/* Tablet: reduce padding */
+@media (max-width: 1024px) {
+  .scriptinject-benefit-main .container {
+    padding: 40px 20px;
+  }
+}

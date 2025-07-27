@@ -1,0 +1,142 @@
+.resource-section {
+  width: 100%;
+  background: #f7f8fa;
+  padding: 120px 0px 138px;
+  
+  background-image: url("./../img/scriptweb/ResourcesImg.webp"); /* Replace with your doctor image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom !important;
+}
+
+.resource-container {
+  width: 100%;
+    padding: 60px 80px;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.resource-text {
+  flex: 1;
+  max-width: 595px;
+}
+
+.resource-text h2 {
+  letter-spacing: -0.025em;
+    color: #5a5f6f;
+    font-size: 42px;
+    margin-bottom: 9px;
+}
+
+.resource-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.resource-text strong {
+  font-weight: 700;
+  color: #222;
+}
+
+.explore-btn {
+color: #fff;
+    margin-top: 12px;
+    font-size: 17px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    padding: 15px 25px;
+    background: #f02814;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    
+    text-decoration: none;
+}
+
+
+.explore-btn:hover {
+  background: #c71e1e;
+}
+
+
+/* ✅ Responsive Styles */
+
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+  .resource-container {
+    padding: 40px 40px;
+    gap: 30px;
+  }
+  .resource-text h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .resource-text p {
+    font-size: 16px;
+  }
+  .explore-btn {
+    padding: 12px 22px;
+    font-size: 15px;
+  }
+}
+
+/* Small Tablets / Large Mobiles (≤768px) */
+@media (max-width: 767px) {
+  .resource-section {
+    padding: 20px 0px 38px;
+    background-position: center;
+    background-image: none !important;
+    background-color: #f0f1f3 !important
+  }
+  .resource-container {
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+  }
+  /* .resource-text{
+     max-width: 100% !important;
+     width: 100% !important;
+  } */
+  .resource-text h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .resource-text p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .explore-btn {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+}
+
+/* Small Mobiles (≤480px) */
+@media (max-width: 480px) {
+  .resource-section {
+    padding: 20px 0px 38px;
+  }
+  .resource-container{
+      width: 80%;
+  }
+  /* .resource-text{
+     max-width: 100% !important;
+     width: 95% !important;
+  } */
+  .resource-text h2 {
+    font-size: 34px;
+    line-height: 35x;
+    margin-bottom: 25px;
+  }
+  .resource-text p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .explore-btn {
+    font-size: 13px;
+    padding: 10px 18px;
+  }
+}

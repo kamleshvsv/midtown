@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  /* background: #e1e3e7 !important; */
+  
+  /* font-family: 'Varela Round', sans-serif; */
+}
+sup {
+    font-size: 14px;
+    font-family: "Varela Round", sans-serif;
+}
+
+
+/* Global button style */
+.btn.explore-btn {
+  background: #fa4b3b;
+  color: #fff;
+  border: none;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+.btn.explore-btn:hover {
+  background: #d32f2f;
+}
+
+
+.g-text-center{
+  text-align:center;
+}
+
+
+.g-home-banner-margin{
+  margin-top: 70px;
+}
+
+.g-about-margin{
+          background-image: none !important;
+        min-height: 650px !important;
+     padding: 40px 20px !important;
+    height: auto !important;
+}
+
+.g-other-pages{
+  margin-top: 70px !important;
+}
+
+.g-contact-pages{
+  margin-top: 100px !important;
+}

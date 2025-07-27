@@ -1,0 +1,39 @@
+.privacy {
+  padding: 40px 20px;
+  /* background: #f9f9f9; */
+}
+
+.g-maring-top{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.privacy .container {
+  /* max-width: 900px; */
+  margin: 0 auto;
+  padding: 40px 60px;
+}
+
+
+.privacy .container p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    font: 200;
+}
+
+@media (max-width: 767px) {
+  .privacy {
+  padding: 10px 0px;
+  /* background: #f9f9f9; */
+}
+.privacy .container {
+  /* max-width: 900px; */
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.g-maring-top{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+}

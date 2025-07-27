@@ -1,0 +1,188 @@
+/* Header base */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 75px;
+  background: transparent; /* fully transparent */
+  position: absolute;  /* stays on top */
+  top: 0;              /* stick to top */
+  left: 0;             /* align left */
+  width: 100%;         /* full width */
+  z-index: 10;
+  box-sizing: border-box; /* padding won't overflow */
+}
+
+
+.logo img {
+  height: 50px;
+}
+ .logo svg {
+     max-width:350px;
+     height:55px;
+}
+
+/* Desktop Nav */
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #5a5f6f;
+  font-size: 12px;
+  margin: 0px 10px;
+  position: relative;
+  transition: color 0.3s ease;
+  padding: 5px 0;
+}
+
+/* Hover Effect: Red Line at Top */
+.nav-links a::before {
+  content: "";
+  position: absolute;
+  top: -43px; /* sticks to header top */
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #f02814;
+  transition: all 0.4s ease-in-out;
+}
+
+.nav-links a:hover::before {
+  width: 100%;
+}
+
+.nav-links a.active {
+  color: #f02814;
+}
+
+.nav-links a.active::before {
+  width: 100%;
+}
+
+/* Login Button */
+.login-btn {
+  background: #f02814;
+  border: none;
+  
+  padding: 15px 35px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #d71e0c;
+}
+
+/* Login Button */
+.login-btn-2 {
+  background: #f02814;
+  border: none;
+  padding: 15px 30px;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn-2:hover {
+  background: #d71e0c;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  position: fixed;
+  overflow: hidden;
+  transition: height 0.4s ease, opacity 0.4s ease;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background: #e1e3e7;
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 35px;
+  border-bottom: 1px solid #ddd;
+}
+
+.mobile-logo {
+  height: 35px;
+}
+
+.close-icon {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.mobile-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.mobile-links a {
+  text-decoration: none;
+  color: #504f4f;
+  font-size: 20px;
+}
+
+.mobile-links .login-btn {
+  margin-top: 20px;
+  font-size: 18px;
+  width: 200px;
+}
+
+@media (max-width: 991px) {
+  .nav-links,
+  .login-btn {
+    display: none;
+  }
+  .logo svg {
+     max-width:150px;
+     height:50px;
+}
+
+  .hamburger {
+    display: block;
+  }
+
+  .header {
+    padding: 20px 35px;
+  }
+}
+
+.mobile-links .link {
+  all: unset;          /* removes button default styles */
+  cursor: pointer;
+  display: block;      /* behave like <a> */
+  padding: 5px 0;
+  color: inherit;      /* keeps text color same */
+  text-decoration: none;
+}
+
+.link.active,
+.login-btn-2.active {
+  color: #f02814;        /* active text color */
+  font-weight: 600;      /* bold */
+}

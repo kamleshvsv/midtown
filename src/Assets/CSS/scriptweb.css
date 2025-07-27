@@ -1,0 +1,252 @@
+/* banner */
+.script-banner__content {
+  max-width: 550px;
+  padding: 2rem 3rem;
+  border-radius: 8px;
+}
+
+.script-banner__heading {
+  font-size: 55px;
+  color: #515a6e;
+  line-height: 55px;
+  letter-spacing: -0.025em;
+  margin-bottom: 1rem;
+}
+
+.script-banner__heading .highlight-red {
+  color: #f02814;
+}
+
+.script-banner__subtext {
+    font-size: 18px;
+    color: #5a5f6f;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    max-width: 610px;
+    margin: 9px 0px 0px;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .script-banner__content {
+max-width: 100%;
+    text-align: center !important;
+    margin: 0 auto;
+    padding-top: 20%;
+    text-align: center;
+  }
+  .script-banner__heading {
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+
+
+
+.scriptweb_text_block {
+  position: relative; /* $rel */
+  height: calc(100% * 5 + 20px); /* replace with $spc100*5 + $spc20 */
+  display: flex;
+  height: 520px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 15px 0; /* replace with $spc20 $spc10 + $spc5 $spc0 */
+}
+
+.scriptweb_text_block .container {
+    width: 100%;
+    padding: 60px 80px;
+    margin: 0 auto;
+    max-width: 1621px;
+}
+
+.scriptweb_text_block img {
+    position: absolute;
+    width: 750px;
+    top: auto;
+    right: 0;
+    z-index: 99;
+}
+
+.scriptweb_text_block .scriptweb-intro-section h2 {
+  font-family: var(--heading-font);
+  font-weight: 400; /* $regular */
+  font-size: 42px; /* $spc40 + 2 */
+  color: var(--font-color);
+  max-width: 600px; /* $spc100*6 */
+  margin: 0;
+}
+
+.scriptweb_text_block .scriptweb-intro-section p {
+  font-size: 18px; /* $spc20 - 2 */
+  color: var(--font-color);
+  font-family: var(--font-main);
+  font-weight: 400;
+  max-width: 610px; /* $spc100*6 + $spc10 */
+  margin: 9px 0 0; /* $spc10 - 1 $spc0 $spc0 */
+}
+
+.scriptweb_text_block .scriptweb-intro-section p sub {
+  font-family: var(--font-main);
+  font-size: 18px; /* $spc20 - 2 */
+}
+
+.scriptweb_text_block img {
+  position: absolute;
+  width: 750px;
+  top: auto;
+  right: 0;
+  z-index: 99;
+}
+
+
+
+.scriptweb-benefits {
+  background-color: #343846; /* Dark background */
+  padding: 60px 20px;
+  color: #fff;
+}
+
+.scriptweb-benefits .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.inject-left-part {
+  flex: 1;
+  min-width: 300px;
+}
+
+.inject-left-part h2 {
+  font-size: 38px;
+  line-height: 1.4;
+  /* font-weight: 500; */
+  color: #fff;
+}
+
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.item h4 {
+  font-size: 26px;
+  /* font-weight: 600; */
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.item h4 span {
+  color: #f02814; /* Red numbering */
+  margin-right: 5px;
+}
+
+.item p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #fff;
+  padding-left: 25px;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .columns {
+    grid-template-columns: 1fr;
+  }
+
+  .scriptweb-benefits .container {
+    flex-direction: column;
+  }
+}
+
+
+/* Large laptops / smaller desktops */
+@media (max-width: 1200px) {
+  .scriptweb_text_block {
+    height: auto;
+    padding: 40px 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .scriptweb_text_block img {
+    width: 600px;
+    position: relative;
+    margin-top: 20px;
+  }
+  .scriptweb_text_block .container {
+    padding: 40px 30px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+  .scriptweb_text_block .scriptweb-intro-section h2 {
+    font-size: 32px;
+    max-width: 100%;
+  }
+  .scriptweb_text_block .scriptweb-intro-section p {
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .scriptweb_text_block img {
+    width: 500px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+  .scriptweb_text_block {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 15px;
+  }
+  .scriptweb_text_block img {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto 0;
+    position: relative;
+    right: auto;
+  }
+  .scriptweb_text_block .container {
+    padding: 20px;
+  }
+  .scriptweb_text_block .scriptweb-intro-section h2 {
+    font-size: 34px;
+  }
+  .scriptweb_text_block .scriptweb-intro-section p {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .specialized-pharmacy h2 {
+    text-align: center;
+    margin: 0 80px 32px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    color: #5a5f6f;
+    line-height: 40px;
+}
+}
+
+/* Extra Small Mobile */
+@media (max-width: 480px) {
+  .scriptweb_text_block .scriptweb-intro-section h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .scriptweb_text_block .scriptweb-intro-section p {
+    font-size: 16px;
+     line-height: 22px;
+  }
+  .scriptweb_text_block img {
+    max-width: 300px;
+  }
+}

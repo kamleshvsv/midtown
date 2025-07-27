@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800|Varela+Round');
+/* @import url('font-awesome.min.css'); */
+
+/* Set universal font sizes and styles here */
+body {
+    
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+  color: #5a5f6f;
+  line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 400;
+  margin: 10px 0px 15px;
+}
+
+h1 {
+  font-size: 55px;
+  color: #5a5f6f;
+}
+
+h2 {
+  font-size: 42px;
+  color: #5a5f6e;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 26px;
+}
+
+h5 {
+  font-size: 23px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Buttons */
+.btn {
+  color: #fff;
+  font-size: 17px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  padding: 15px 25px;
+  background: #f02814;   /* was $red */
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #5a5f6f;   /* was $fontColor */
+  color: #fff;
+}
+
+.btn.white {
+  background: #fff;  
+  color: #f02814;
+}
+
+.btn.white:hover {
+  background: #5a5f6f;   /* was $fontColor */
+  color: #fff;
+}
+
+/* Text button */
+.text_btn {
+  color: #5a5f6f;
+  font-size: 17px;
+  border-bottom: 3px solid #dedfe2;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.text_btn:after {
+  content: "";
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 7px solid #5a5f6f;
+  position: absolute;
+  right: 0px;
+  top: 9px;
+}
+
+.text_btn:hover {
+  color: #f02814;      /* was $red */
+  border-bottom-color: #f02814;
+}
+
+.text_btn:hover:after {
+  border-left-color: #f02814;
+}
+
+
+@media (max-width: 767px) {
+
+  h1 { font-size: 42px; }
+  h2 { font-size: 34px; }
+  h3 { font-size: 28px; }
+}
