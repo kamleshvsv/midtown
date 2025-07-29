@@ -124,7 +124,7 @@ const ScriptInjectPage = () => {
                   <h5>Direct Communication</h5>
                   <p>
                     Clear and concise communication between your clinic and an
-                    assigned ScriptSite team member by phone and/or email.
+                    assigned Midtown team member by phone and/or email.
                   </p>
                 </div>
               </li>

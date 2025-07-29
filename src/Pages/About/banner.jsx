@@ -39,7 +39,7 @@ const AboutBanner = () => {
             <span className="highlight-red">nurses and case managers in mind.</span>
           </h1>
           <p className="about-banner__subtext">
-            ScriptSite has the personalized approach, platform and process to ensure the best possible treatment experience—period.
+            Midtown has the personalized approach, platform and process to ensure the best possible treatment experience—period.
           </p>
         </div>
       </section>

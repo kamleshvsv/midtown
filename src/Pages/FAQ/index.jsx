@@ -73,7 +73,7 @@ const FAQPage = () => {
     scriptinject: [
       {
         q: "Do you have expertise in long-acting antipsychotic injections?",
-        a: "Yes. We have received thorough support and education from the manufacturers, and ScriptSite was the first independent pharmacy in San Francisco contracted to provide injection management.",
+        a: "Yes. We have received thorough support and education from the manufacturers, and Midtown was the first independent pharmacy in San Francisco contracted to provide injection management.",
       },
       {
         q: "Do you stock all antipsychotic injectables?",
@@ -85,11 +85,11 @@ const FAQPage = () => {
       },
       {
         q: "Can a client get his/her injection at the pharmacy?",
-        a: "Yes. We have contracts with manufacturers that allow a certified ScriptSite pharmacist to administer the injection at the pharmacy.",
+        a: "Yes. We have contracts with manufacturers that allow a certified Midtown pharmacist to administer the injection at the pharmacy.",
       },
       {
         q: "Can a client get his/her injection at home?",
-        a: "Yes. We can have a ScriptSite nurse administer the injection at the client’s home.",
+        a: "Yes. We can have a Midtown nurse administer the injection at the client’s home.",
       },
       {
         q: "If we have our own nurse to administer the injection, will you still dispense the injection?",
@@ -121,7 +121,7 @@ const FAQPage = () => {
 
   return (
     <>
-    <title>FAQ | ScriptSite RX</title>
+    <title>FAQ | Midtown RX</title>
     
     <div className="faq-page g-other-pages">
       <div className="faq-main-heading">

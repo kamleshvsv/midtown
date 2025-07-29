@@ -9,7 +9,7 @@ import ScriptPakFeatures from "./Features";
 export default function ScriptPak() {
   return (
     <>
-    <title>ScriptPak™ | ScriptSite RX</title>
+    <title>ScriptPak™ | Midtown RX</title>
       <ScriptPakBanner />
       <section className="scriptpark-page">
         <div className="intro-section">

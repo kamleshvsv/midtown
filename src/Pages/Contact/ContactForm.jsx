@@ -4,6 +4,7 @@ const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     subject: "",
+    location: "",
     email: "",
     phone: "",
     message: "",
@@ -27,7 +28,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     // basic validation
-    if (!formData.name || !formData.email || !formData.phone || !formData.message || !formData.subject) {
+    if (!formData.name || !formData.email || !formData.phone || !formData.message || !formData.subject || !formData.location) {
       setStatus("⚠️ Please complete all required fields before submitting.");
       setStatusType("error");
       return;
@@ -51,6 +52,7 @@ const ContactForm = () => {
         setFormData({
           name: "",
           subject: "",
+          location: "",
           email: "",
           phone: "",
           message: "",
@@ -96,6 +98,20 @@ const ContactForm = () => {
             <option value="ScriptInject™">ScriptInject™</option>
             <option value="ScriptWeb™">ScriptWeb™</option>
             <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div className="form-group">
+          <label>Location</label>
+          <select
+            name="location"
+            value={formData.location}
+            onChange={handleChange}
+            required
+          >
+            <option value="">Select Location</option>
+            <option value="San Francisco">San Francisco</option>
+            <option value="Alameda">Alameda</option>
           </select>
         </div>
 

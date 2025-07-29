@@ -9,14 +9,14 @@ import MobileImage from "./../../Assets/img/about/scriptpak_AboutPg_Mobile.webp"
 export default function About() {
   return (
     <>
-    <title>About | ScriptSite RX</title>
+    <title>About | Midtown RX</title>
       <AboutBanner />
       <ServicesCarousel />
       {/* Benefit section */}
       <div className="benefit-main">
         <div className="container">
           <h2 className="text-center heading-margin">
-            These are some of the benefits of working with ScriptSite:
+            These are some of the benefits of working with Midtown:
           </h2>
           <div className="right_text">
             <div className="benefit-grid">
@@ -24,7 +24,7 @@ export default function About() {
                 <h5>Direct Communication</h5>
                 <p>
                   Clear and concise communication between your clinic and an
-                  assigned ScriptSite team member by phone and/or email.
+                  assigned Midtown team member by phone and/or email.
                 </p>
               </div>
 

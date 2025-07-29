@@ -6,7 +6,7 @@ import ScriptInjectPage from "./Services";
 export default function ScriptInjectHome() {
   return (
     <>
-      <title>ScriptInject™ | ScriptSite RX</title>
+      <title>ScriptInject™ | Midtown RX</title>
       <ScriptInjectBanner />
       <ScriptInjectPage />
     </>

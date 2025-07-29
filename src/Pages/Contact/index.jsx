@@ -8,7 +8,7 @@ import map from "./../../Assets/img/map-1.png";
 const ContactPage = () => {
   return (
     <>
-      <title>Contact | ScriptSite RX</title>
+      <title>Contact | Midtown RX</title>
       
     <section className="script-contact-page g-contact-pages">
       <div className="container">
@@ -45,14 +45,14 @@ const ContactPage = () => {
             />
 
             <div className="map-info-box">
-              <span>ScriptSite</span>
-              <p className="city">San Francisco</p>
+              <span>Midtown</span>
+              <p className="city">Alameda</p>
               <p className="address">
-                870 Market St. Ste. 1028 <br />
-                San Francisco, CA 94102
+               2173 Harbor Bay Parkway<br />
+              Alameda, CA 94502 
               </p>
               <p className="telno">
-                <a href="tel:8553288734">(855) 328-8734</a>
+                <a href="tel:5108644199">(510) 864-4199</a>
                 <br />
 
                 <a href="mailto:hello@scriptsiterx.com">
@@ -70,13 +70,13 @@ const ContactPage = () => {
         {/* Mobile Address */}
         <div className="mobile-address">
           <h2>Location</h2>
-          <h5>San Francisco</h5>
+          <h5>Alameda</h5>
           <p>
-            870 Market St. Ste. 1028 <br />
-            San Francisco, CA 94102
+            2173 Harbor Bay Parkway <br />
+            Alameda, CA 94502
           </p>
           <p className="telno">
-          <a>(855) 328-8734</a>
+            <a href="tel:5108644199">(510) 864-4199</a>
           <a href="mailto:hello@scriptsiterx.com">hello@scriptsiterx.com</a>
           </p>
         </div>

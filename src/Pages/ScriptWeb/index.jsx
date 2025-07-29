@@ -10,7 +10,7 @@ import ResourceSection from "./Resource";
 export default function ScriptWebPage() {
   return (
     <>
-      <title>ScriptWeb™ | ScriptSite RX</title>
+      <title>ScriptWeb™ | Midtown RX</title>
       <ScriptWebBanner />
       <section className="scriptweb_text_block">
         <img

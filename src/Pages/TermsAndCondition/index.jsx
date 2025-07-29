@@ -4,17 +4,17 @@ import "./../../Assets/CSS/privacy.css";
 const PrivacyPolicy = () => {
   return (
     <section className="privacy g-other-pages">
-       <title>Privacy & Term of Service | ScriptSite RX</title>
+       <title>Privacy & Term of Service | Midtown RX</title>
       <div className="container">
         <h2>Privacy Policy</h2>
 
         <p>
           Protecting your private information is our priority. This Statement of
-          Privacy applies to www.scriptsiterx.com and ScriptSite Pharmacy
-          Partners, LLC (“ScriptSite” or the “Company”) and governs data
+          Privacy applies to www.midtownrx.com and Midtown Pharmacy
+          Partners, LLC (“Midtown” or the “Company”) and governs data
           collection and usage. For the purposes of this Privacy Policy, unless
-          otherwise noted, all references to ScriptSite Pharmacy Partners, LLC
-          include www.scriptsiterx.com (“Site”) and ScriptSite. The ScriptSite
+          otherwise noted, all references to Midtown Pharmacy Partners, LLC
+          include www.midtownrx.com (“Site”) and Midtown. The Midtown
           website is a specialized pharmacy specifically designed for behavioral
           health, HIV/AIDS, long-term care and addiction care. Our mission is to
           help patients, prescribers, nurses, and case managers diagnose, treat,
@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
         </p>
 
         <p>
-          By using the ScriptSite website, you consent to the data practices
+          By using the Midtown website, you consent to the data practices
           described in this statement.
         </p>
 
@@ -30,7 +30,7 @@ const PrivacyPolicy = () => {
 
         <h5>Collection of your Personal Information</h5>
         <p>
-          ScriptSite may collect personal information, including but not limited
+          Midtown may collect personal information, including but not limited
           data such as your:
         </p>
         {/* <ul>
@@ -76,38 +76,38 @@ const PrivacyPolicy = () => {
 
         <h5>Sharing Information with Third Parties</h5>
         <p>
-          ScriptSite does not sell, rent or lease its customer lists to third
+          Midtown does not sell, rent or lease its customer lists to third
           parties but reserves the right to do at a future time.{" "}
         </p>
         <p>
-          ScriptSite may, from time to time, contact you on behalf of external
+          Midtown may, from time to time, contact you on behalf of external
           business partners about a particular offering that may be of interest
           to you. In those cases, your unique personally identifiable
           information (e-mail, name, address, telephone number) is not
-          transferred to the third party. ScriptSite may share data with trusted
+          transferred to the third party. Midtown may share data with trusted
           partners to help perform statistical analysis, send you email or
           postal mail, provide customer support, or arrange for deliveries. All
           such third parties are prohibited from using your personal information
-          except to provide these services to ScriptSite, and they are required
+          except to provide these services to Midtown, and they are required
           to maintain the confidentiality of your information.{" "}
         </p>
         <p>
-          ScriptSite may disclose your personal information, without notice, if
+          Midtown may disclose your personal information, without notice, if
           required to do so by law or in the good faith belief that such action
           is necessary to: (a) conform to the edicts of the law or comply with
-          legal process served on ScriptSite or the Site; (b) protect and defend
-          the rights or property of ScriptSite; and/or (c) act under exigent
-          circumstances to protect the personal safety of users of ScriptSite,
+          legal process served on Midtown or the Site; (b) protect and defend
+          the rights or property of Midtown; and/or (c) act under exigent
+          circumstances to protect the personal safety of users of Midtown,
           or the public.{" "}
         </p>
         <div className="g-maring-top"></div>
 
         <h5>Tracking User Behavior</h5>
         <p>
-          ScriptSite may keep track of the websites and pages our users visit
-          within ScriptSite, in order to determine what ScriptSite services are
+          Midtown may keep track of the websites and pages our users visit
+          within Midtown, in order to determine what Midtown services are
           the most popular. This data is used to deliver customized content and
-          advertising within ScriptSite to customers whose behavior indicates
+          advertising within Midtown to customers whose behavior indicates
           that they are interested in a particular subject area.{" "}
         </p>
         <div className="g-maring-top"></div>
@@ -115,18 +115,18 @@ const PrivacyPolicy = () => {
         <h5>Automatically Collected Information</h5>
         <p>
           Information about your computer hardware and software may be
-          automatically collected by ScriptSite. This information can include:
+          automatically collected by Midtown. This information can include:
           your IP address, browser type, domain names, access times and
           referring website addresses. This information is used for the
           operation of the service, to maintain quality of the service, and to
-          provide general statistics regarding use of the ScriptSite website.{" "}
+          provide general statistics regarding use of the Midtown website.{" "}
         </p>
 
         <div className="g-maring-top"></div>
 
         <h5>Use of Cookies</h5>
         <p>
-          The ScriptSite website may use “cookies” to help you personalize your
+          The Midtown website may use “cookies” to help you personalize your
           online experience. A cookie is a text file that is placed on your hard
           disk by a web page server. Cookies cannot be used to run programs or
           deliver viruses to your computer. Cookies are uniquely assigned to
@@ -137,20 +137,20 @@ const PrivacyPolicy = () => {
           One of the primary purposes of cookies is to provide a convenience
           feature to save you time. The purpose of a cookie is to tell the Web
           server that you have returned to a specific web page. For example, if
-          you personalize ScriptSite web pages, or register with ScriptSite site
-          or services, a cookie helps ScriptSite to recall your specific
+          you personalize Midtown web pages, or register with Midtown site
+          or services, a cookie helps Midtown to recall your specific
           information on subsequent visits. This simplifies the process of
           recording your personal information, such as billing addresses,
-          shipping addresses, and so on. When you return to the same ScriptSite
+          shipping addresses, and so on. When you return to the same Midtown
           website, the information you previously provided can be retrieved, so
-          you can easily use the ScriptSite features that you customized.{" "}
+          you can easily use the Midtown features that you customized.{" "}
         </p>
         <p>
           You have the ability to accept or decline cookies. Most Web browsers
           automatically accept cookies, but you can usually modify your browser
           setting to decline cookies if you prefer. If you choose to decline
           cookies, you may not be able to fully experience the interactive
-          features of the ScriptSite services or websites you visit.{" "}
+          features of the Midtown services or websites you visit.{" "}
         </p>
 
         <div className="g-maring-top"></div>
@@ -165,8 +165,8 @@ const PrivacyPolicy = () => {
 
         <h5>Security of your Personal Information</h5>
         <p>
-          ScriptSite secures your personal information from unauthorized access,
-          use, or disclosure. ScriptSite uses the following methods for this
+          Midtown secures your personal information from unauthorized access,
+          use, or disclosure. Midtown uses the following methods for this
           purpose:{" "}
         </p>
 
@@ -204,7 +204,7 @@ const PrivacyPolicy = () => {
 
         <h5>Children Under Thirteen</h5>
         <p>
-          ScriptSite does not knowingly collect personally identifiable
+          Midtown does not knowingly collect personally identifiable
           information from children under the age of thirteen. If you are under
           the age of thirteen, you must ask your parent or guardian for
           permission to use this website.{" "}
@@ -213,7 +213,7 @@ const PrivacyPolicy = () => {
         <div className="g-maring-top"></div>
         <h5>E-mail Communications</h5>
         <p>
-          From time to time, ScriptSite may contact you via email for the
+          From time to time, Midtown may contact you via email for the
           purpose of providing announcements, promotional offers, alerts,
           confirmations, surveys, and/or other general communication.{" "}
         </p>
@@ -242,7 +242,7 @@ const PrivacyPolicy = () => {
           Customers in the Designated Countries.
         </p>
         <p>
-          ScriptSite is a data controller with regard to any personal
+          Midtown is a data controller with regard to any personal
           information collected from Customers or Users of its Services. A “data
           controller” is an entity that determines the purposes for which and
           the manner in which any personal information is processed. Any third
@@ -277,7 +277,7 @@ const PrivacyPolicy = () => {
         <div className="g-maring-top"></div>
         <h5>Changes to this Statement</h5>
         <p>
-          ScriptSite reserves the right to change this Privacy Policy from time
+          Midtown reserves the right to change this Privacy Policy from time
           to time. We will notify you about significant changes in the way we
           treat personal information by sending a notice to the primary email
           address specified in your account, by placing a prominent notice on
@@ -291,15 +291,15 @@ const PrivacyPolicy = () => {
         <div className="g-maring-top"></div>
         <h5>Contact Information</h5>
         <p>
-          ScriptSite welcomes your questions or comments regarding this
-          Statement of Privacy. If you believe that ScriptSite has not adhered
-          to this Statement, please contact ScriptSite at:{" "}
+          Midtown welcomes your questions or comments regarding this
+          Statement of Privacy. If you believe that Midtown has not adhered
+          to this Statement, please contact Midtown at:{" "}
         </p>
         <div className="g-maring-top"></div>
-        <p>ScriptSite Pharmacy Partners, LLC </p>
-        <p>870 Market Street, Suite 1028 </p>
-        <p>San Francisco, California 94102 </p>
-        <p>Telephone number: (415) 800-8060 </p>
+        <p>Midtown, LLC </p>
+        <p>2173 Harbor Bay Parkway</p>
+        <p>Alameda, CA 94502  </p>
+        <p>Telephone number: (510) 864-4199 </p>
         <br/>
         <p>Effective as of September 10, 2018 </p>
       </div>

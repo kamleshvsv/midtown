@@ -22,7 +22,7 @@ export default function Banner() {
           Ready for the <span>opportunities of tomorrow.</span>
         </h1>
         <p>
-          ScriptSite is a specialized pharmacy specifically designed for
+          Midtown is a specialized pharmacy specifically designed for
           behavioral health, HIV/AIDS, long-term care and addiction care. Our
           mission is to help patients, prescribers, nurses, and case managers
           diagnose, treat, and recover better.
@@ -30,7 +30,7 @@ export default function Banner() {
 
         {/* On desktop → About button, on mobile → Watch Video button */}
         <div className="banner-buttons">
-          <button className="btn about-btn" onClick={() => navigate("/about")}>About ScriptSite</button>
+          <button className="btn about-btn" onClick={() => navigate("/about")}>About Midtown</button>
 
           <br />
           <button className="btn watch-btn mobile-only" onClick={handleOpen}>

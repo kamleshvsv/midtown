@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import img from "./../../Assets/img/scriptpak/ScriptPak_ProductImg.png"
 export default function ScriptPakFeatures() {
   return (
     <div className="scriptpak-features">
@@ -8,11 +9,10 @@ export default function ScriptPakFeatures() {
           <img
             width="794"
             height="750"
-            src="https://scriptsiterx.wpenginepowered.com/wp-content/uploads/2018/06/ScriptPak_ProductImg.png"
+            src={img}
             className="attachment-full size-full"
             alt=""
             decoding="async"
-            srcset="https://scriptsiterx.wpenginepowered.com/wp-content/uploads/2018/06/ScriptPak_ProductImg.png 794w, https://scriptsiterx.wpenginepowered.com/wp-content/uploads/2018/06/ScriptPak_ProductImg-300x283.png 300w, https://scriptsiterx.wpenginepowered.com/wp-content/uploads/2018/06/ScriptPak_ProductImg-768x725.png 768w"
             sizes="(max-width: 794px) 100vw, 794px"
           />{" "}
         </div>

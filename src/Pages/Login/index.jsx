@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <>
     
-      <title>Login | ScriptSite RX</title>
+      <title>Login | Midtown RX</title>
       
     <section
       className="login-page"
