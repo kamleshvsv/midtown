@@ -15,7 +15,7 @@ const ContactForm = () => {
   const [statusType, setStatusType] = useState(""); // success | error | info
 
   const GOOGLE_SCRIPT_URL =
-    "https://script.google.com/macros/s/AKfycbyMVGjUDnLa_B6RLQ62fwqeRQ85f_8vukAd4R2nRLM8SdS93-_H9ogY6JSSG9dJsGhMpQ/exec";
+    "https://script.google.com/macros/s/AKfycbwbe8GpHA9ngG7cFyKoFfWic3yrKGB9xNrbiD6vohLyDSVQoM865gKp2kAmqCUXPZCpfA/exec";
 
   // Handle input change
   const handleChange = (e) => {
