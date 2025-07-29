@@ -17,7 +17,7 @@ const ContactPage = () => {
           <h2>Contact us</h2>
           <p>
             Tell us how we can be of service. <br />
-            To reach us directly, please call <br />
+            {/* To reach us directly, please call <br />
             <strong>
               <a href="tel:8553288734">(855) 328-8734</a>
             </strong>{" "}
@@ -26,7 +26,7 @@ const ContactPage = () => {
               <br />
               <a href="mailto:hello@scriptsiterx.com">hello@scriptsiterx.com</a>
             </strong>
-            .
+            . */}
           </p>
 
           {/* Contact Form */}
