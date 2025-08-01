@@ -6,11 +6,11 @@ const ScriptInjectBanner = () => {
     <>
       <style>
         {`
-          .script-banner {
+          .script-inject-banner {
             position: relative;
             width: 100%;
             height: 82vh;
-            background-image: url(${BannerImage});
+            background-image: url(${BannerImage}) !important;
             background-size: cover;
             background-position: bottom;
             display: flex;
@@ -21,7 +21,7 @@ const ScriptInjectBanner = () => {
 
           /* Responsive */
           @media (max-width: 767px) {
-            .script-banner {
+            .script-inject-banner {
               display: block;
                height: 60vh !important;
               background-position: top center;
@@ -34,7 +34,7 @@ const ScriptInjectBanner = () => {
           }
         `}
       </style>
-      <section className="script-banner g-about-margin" role="banner" aria-label="About page banner with a natural background">
+      <section className="script-inject-banner g-about-margin" role="banner" aria-label="About page banner with a natural background">
         <div className="script-banner__content">
           <h1 className="script-banner__heading">
             We put our patients first, with <span className="highlight-red">managed injections.</span> <br />

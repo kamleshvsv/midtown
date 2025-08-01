@@ -29,7 +29,7 @@ export default function Header() {
   return (
     <header className="header">
       <NavLink to="/">
-        <img src={logo} width={150} />
+        <img src={logo} width={230} />
       </NavLink>
 
       {/* Desktop Nav */}
@@ -93,7 +93,7 @@ export default function Header() {
         <div className="mobile-menu">
           <div className="mobile-header">
             <NavLink to="/" onClick={toggleMenu} className="logo">
-              <img src={logo} width={150} height={150} />
+              <img src={logo} width={160} />
             </NavLink>
             <span className="close-icon" onClick={toggleMenu}>
               ✖

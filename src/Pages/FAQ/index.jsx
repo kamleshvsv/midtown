@@ -11,7 +11,7 @@ const FAQPage = () => {
     general: [
       {
         q: "I am a prescriber - how can I send in prescriptions to you?",
-        a: 'We accept prescriptions by electronic Rx (in your SureScript system we are displayed as "Script Site Pharmacy"), fax or phone.',
+        a: 'We accept prescriptions by electronic Rx (in your SureScript system we are displayed as "Midtown Pharmacy"), fax or phone.',
       },
       {
         q: "How can I transfer my prescriptions to you?",
@@ -23,7 +23,7 @@ const FAQPage = () => {
       },
       {
         q: "How do I sign up for ScriptPak™ or ScriptWeb™ services?",
-        a: "Please refer to our 'Contact' page to fill out some information. Alternatively, email us at hello@scriptsiterx.com or call us at (855) 328-8734 and our customer service representative will assist you.",
+        a: "Please refer to our 'Contact' page to fill out some information. Alternatively, email us at hello@scriptsiterx.com or call us at (510) 864-4199 and our customer service representative will assist you.",
       },
       {
         q: "What if I want pill bottles?",
@@ -77,7 +77,7 @@ const FAQPage = () => {
       },
       {
         q: "Do you stock all antipsychotic injectables?",
-        a: "Yes, we do. We have a full stock of Abilify Maintena, Aristada, Invega Sustenna, Invega Trinza, Zyprexa Relprevv, etc.",
+        a: "Yes, we do. We have a full stock of Abilify, Aristada, Invega and Uzedy.",
       },
       {
         q: "Do you stock any other injectables?",
@@ -121,7 +121,7 @@ const FAQPage = () => {
 
   return (
     <>
-    <title>FAQ | Midtown RX</title>
+    <title>FAQ | Midtown Pharmacy</title>
     
     <div className="faq-page g-other-pages">
       <div className="faq-main-heading">

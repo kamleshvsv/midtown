@@ -16,6 +16,19 @@
   border-radius: 8px;
 }
 
+.about-banner {
+  position: relative;
+  width: 100%;
+  height: 82vh;
+  background-image: url("./../img/about/about_hero_new.jpg") !important;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  padding: 0 4rem;
+  box-sizing: border-box;
+}
+
 .about-banner__heading {
   font-size: 55px;
   color: #515a6e;
@@ -42,6 +55,13 @@
     margin: 0 auto;
     padding-top: 20%;
     text-align: center;
+  }
+  .about-banner {
+    padding: 2rem;
+    display: block;
+    background: #dedfe2; /* 👈 gray background */
+    background-image: none !important; /* remove image */
+    background-position: top center;
   }
   .about-banner__heading {
     font-size: 34px;
@@ -244,7 +264,7 @@
 
 /* Mobile: single column, no cut */
 @media (max-width: 767px) {
-   .container {
+  .container {
     width: 90% !important;
     max-width: 95% !important;
   }

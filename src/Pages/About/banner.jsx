@@ -1,36 +1,8 @@
 import React from 'react';
-import BannerImage from "./../../Assets/img/about/about_hero_new.jpg"
 import "./../../Assets/CSS/about.css"
 const AboutBanner = () => {
   return (
     <>
-      <style>
-        {`
-          .about-banner {
-            position: relative;
-            width: 100%;
-            height: 82vh;
-            background-image: url(${BannerImage});
-            background-size: cover;
-            background-position: bottom;
-            display: flex;
-            align-items: center;
-            padding: 0 4rem;
-            box-sizing: border-box;
-          }
-
-          /* Responsive */
-          @media (max-width: 767px) {
-            .about-banner {
-              padding: 2rem;
-              display: block;
-              background: #dedfe2;  /* 👈 gray background */
-              background-image: none !important; /* remove image */
-              background-position: top center;
-            }
-          }
-        `}
-      </style>
       <section className="about-banner g-about-margin" role="banner" aria-label="About page banner with a natural background">
         <div className="about-banner__content">
           <h1 className="about-banner__heading">

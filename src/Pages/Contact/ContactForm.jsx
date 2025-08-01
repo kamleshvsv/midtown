@@ -71,7 +71,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contact-container" style={{ maxWidth: "600px", margin: "0 auto" }}>
+    <div className="contact-container">
       <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label>First and Last Name</label>

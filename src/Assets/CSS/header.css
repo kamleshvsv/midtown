@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 75px;
+  padding: 9px 75px;
   background: transparent; /* fully transparent */
   position: absolute;  /* stays on top */
   top: 0;              /* stick to top */
@@ -13,10 +13,6 @@
   box-sizing: border-box; /* padding won't overflow */
 }
 
-
-.logo img {
-  height: 50px;
-}
  .logo svg {
      max-width:350px;
      height:55px;
@@ -153,7 +149,10 @@
   width: 200px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
+  .header a img {
+    width: 160px !important;
+  }
   .nav-links,
   .login-btn {
     display: none;

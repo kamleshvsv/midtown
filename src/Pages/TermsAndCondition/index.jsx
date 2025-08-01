@@ -4,17 +4,16 @@ import "./../../Assets/CSS/privacy.css";
 const PrivacyPolicy = () => {
   return (
     <section className="privacy g-other-pages">
-       <title>Privacy & Term of Service | Midtown RX</title>
+       <title>Privacy & Term of Service | Midtown Pharmacy</title>
       <div className="container">
         <h2>Privacy Policy</h2>
 
         <p>
           Protecting your private information is our priority. This Statement of
-          Privacy applies to www.midtownrx.com and Midtown Pharmacy
-          Partners, LLC (“Midtown” or the “Company”) and governs data
+          Privacy applies to  www.midtownpharmacy.com and ScriptSite LTC, LLC (dba Midtown Pharmacy) (“Midtown” or the “Company”) and governs data
           collection and usage. For the purposes of this Privacy Policy, unless
           otherwise noted, all references to Midtown Pharmacy Partners, LLC
-          include www.midtownrx.com (“Site”) and Midtown. The Midtown
+          include  www.midtownpharmacy.com (“Site”) and Midtown. The Midtown
           website is a specialized pharmacy specifically designed for behavioral
           health, HIV/AIDS, long-term care and addiction care. Our mission is to
           help patients, prescribers, nurses, and case managers diagnose, treat,
@@ -296,12 +295,12 @@ const PrivacyPolicy = () => {
           to this Statement, please contact Midtown at:{" "}
         </p>
         <div className="g-maring-top"></div>
-        <p>Midtown, LLC </p>
+        <p>Midtown Pharmacy</p>
         <p>2173 Harbor Bay Parkway</p>
         <p>Alameda, CA 94502  </p>
         <p>Telephone number: (510) 864-4199 </p>
         <br/>
-        <p>Effective as of September 10, 2018 </p>
+        <p>Effective as of May 1, 2025 </p>
       </div>
     </section>
   );

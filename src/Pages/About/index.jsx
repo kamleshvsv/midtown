@@ -9,7 +9,7 @@ import MobileImage from "./../../Assets/img/about/scriptpak_AboutPg_Mobile.webp"
 export default function About() {
   return (
     <>
-    <title>About | Midtown RX</title>
+    <title>About | Midtown Pharmacy</title>
       <AboutBanner />
       <ServicesCarousel />
       {/* Benefit section */}
