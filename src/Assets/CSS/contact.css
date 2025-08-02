@@ -25,6 +25,7 @@
   padding-left: 20px;
   width: 100%;
   overflow: hidden !important;
+  /* background-color: gray; */
 }
 .right-section .map-image {
   width: 500px;
@@ -197,7 +198,7 @@ textarea {
 
 .map-info-box-2 {
   position: absolute;
-  top: 48%;
+  top: 47%;
   left: 35px; /* icon ke right side */
   transform: translateY(-50%);
   background: #fff;
@@ -238,18 +239,21 @@ textarea {
 }
 
 @media (max-width: 767px) {
-  .right-section {
-    display: none !important;
+  .script-contact-page .container .right-section {
+    width: 98%;
+  }
+  input{
+    width: 95%;
   }
   .script-contact-page .container .left-section {
     padding: 0px 10px;
-    width: 100%;
+    width: 98%;
   }
   .script-contact-page .container {
     width: 100%;
     margin-left: 0%;
-    padding: 60px 15px;
-    display: flex;
+    padding: 20px 0px;
+    display: block;
   }
   .mobile-address {
     display: block;

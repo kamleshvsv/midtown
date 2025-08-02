@@ -1,11 +1,72 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./../../Assets/CSS/contact.css";
 import ContactForm from "./ContactForm";
-import mapLocation from "./../../Assets/img/map-location-icon.webp";
-
-import map from "./../../Assets/img/map-1.png";
 
 const ContactPage = () => {
+    const mapRef = useRef(null);
+
+  useEffect(() => {
+    if (window.google && mapRef.current) {
+      const map = new window.google.maps.Map(mapRef.current, {
+        center: {lat: 37.78517511758828, lng: -122.40699826013112},
+        zoom: 12,
+        // mapTypeId: "satellite", // 👈 default satellite view
+        // disableDefaultUI: true, // 👈 saare controls hide kar dega
+      });
+
+      const locations = [
+        {
+          position: { lat: 37.72902861581561, lng: -122.24701270170458 },
+          title: "Midtown - Alameda",
+          content: `
+            <div style="font-size:14px;">
+              <strong>Midtown Pharmacy- Alameda</strong><br/>
+              2173 Harbor Bay Parkway<br/>
+              Alameda, CA 94502<br/>
+              <a href="tel:5108644199">(510) 864-4199</a><br/>
+              <a href="mailto:hello@scriptsiterx.com">hello@scriptsiterx.com</a>
+            </div>
+          `,
+        },
+        {
+          position: {lat: 37.78517511758828, lng: -122.40699826013112},
+          title: "ScriptSite - San Francisco",
+          content: `
+            <div style="font-size:14px;">
+              <strong>ScriptSite - San Francisco</strong><br/>
+              870 Market St. Ste. 1028<br/>
+              San Francisco, CA 94102<br/>
+              <a href="tel:8553288734">(855) 328-8734</a><br/>
+              <a href="mailto:hello@scriptsiterx.com">hello@scriptsiterx.com</a>
+            </div>
+          `,
+        },
+      ];
+
+      const infoWindow = new window.google.maps.InfoWindow();
+      const bounds = new window.google.maps.LatLngBounds();
+
+      locations.forEach((loc) => {
+        const marker = new window.google.maps.Marker({
+          position: loc.position,
+          map,
+          title: loc.title,
+        });
+
+        marker.addListener("click", () => {
+          infoWindow.setContent(loc.content);
+          infoWindow.open(map, marker);
+        });
+
+        // extend bounds for each marker
+        bounds.extend(loc.position);
+      });
+
+      // 👇 this will auto zoom & center to show both locations
+      map.fitBounds(bounds);
+    }
+  }, []);
+
   return (
     <>
       <title>Contact | Midtown Pharmacy</title>
@@ -15,16 +76,14 @@ const ContactPage = () => {
           {/* Left Section */}
           <div className="left-section">
             <h2>Contact us</h2>
-            <p>
-              Tell us how we can be of service. <br />
-            </p>
-
+            <p>Tell us how we can be of service.</p>
             <ContactForm />
           </div>
 
           {/* Right Section */}
           <div className="right-section">
-            <a className="map-info" href="#">
+            {/* Location details */}
+            {/* <a className="map-info" href="#">
               <img
                 width="50"
                 height="62"
@@ -32,7 +91,6 @@ const ContactPage = () => {
                 alt="map icon"
                 className="map1-icon"
               />
-
               <div className="map-info-box">
                 <span>Midtown</span>
                 <p className="city">Alameda</p>
@@ -40,14 +98,6 @@ const ContactPage = () => {
                   2173 Harbor Bay Parkway
                   <br />
                   Alameda, CA 94502
-                </p>
-                <p className="telno">
-                  <a href="tel:5108644199">(510) 864-4199</a>
-                  <br />
-
-                  <a href="mailto:hello@scriptsiterx.com">
-                    hello@scriptsiterx.com
-                  </a>
                 </p>
               </div>
             </a>
@@ -60,7 +110,6 @@ const ContactPage = () => {
                 alt="map icon"
                 className="map2-icon"
               />
-
               <div className="map-info-box-2">
                 <span>ScriptSite</span>
                 <p className="city">San Francisco</p>
@@ -69,50 +118,15 @@ const ContactPage = () => {
                   <br />
                   San Francisco, CA 94102
                 </p>
-                <p className="telno">
-                  <a href="tel:8553288734">(855) 328-8734</a>
-                  <br />
-
-                  <a href="mailto:hello@scriptsiterx.com">
-                    hello@scriptsiterx.com
-                  </a>
-                </p>
               </div>
-            </a>
+            </a> */}
 
-            <img className="map-image" src={map} alt="map" />
+            {/* Google Map */}
+            <div
+              ref={mapRef}
+              style={{ width: "100%", height: "750px", borderRadius: "15px" }}
+            ></div>
           </div>
-        </div>
-
-        {/* Mobile Address */}
-        <div className="mobile-address">
-          <h2>Location</h2>
-          <h5>Alameda</h5>
-          <p>
-            2173 Harbor Bay Parkway <br />
-            Alameda, CA 94502
-          </p>
-          <p className="telno">
-            <a href="tel:5108644199">(510) 864-4199</a>
-            <a href="mailto:hello@scriptsiterx.com">hello@scriptsiterx.com</a>
-          </p>
-        </div>
-
-        <div className="mobile-address">
-          <hr />
-          {/* <h2>Location</h2> */}
-          <h5>San Francisco</h5>
-          <p>
-            870 Market St. Ste. 1028
-            <br />
-            San Francisco, CA 94102
-          </p>
-          <p className="telno">
-            <a href="tel:8553288734">(855) 328-8734</a>
-            <br />
-
-            <a href="mailto:hello@scriptsiterx.com">hello@scriptsiterx.com</a>
-          </p>
         </div>
       </section>
     </>
