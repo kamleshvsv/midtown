@@ -98,27 +98,27 @@ const ContactPage = () => {
       const locations = [
         {
           position: { lat: 37.72902861581561, lng: -122.24701270170458 },
-          title: "Midtown - Alameda",
+          title: "Midtown Pharmacy",
           content: `
-            <div style="font-size:14px;">
-              <strong>Midtown Pharmacy- Alameda</strong><br/>
+            <div style="font-size:14px; font-family: "Varela Round", sans-serif; line-height:1.6;">
+              <strong style="color:"#5a5f6e">Midtown Pharmacy</strong><br/>
               2173 Harbor Bay Parkway<br/>
               Alameda, CA 94502<br/>
-              <a href="tel:5108644199">(510) 864-4199</a><br/>
-              <a href="mailto:hello@scriptsiterx.com">hello@scriptsiterx.com</a>
+              <a href="tel:5108644199" style="color:#aaa;">(510) 864-4199</a><br/>
+              <a href="mailto:hello@scriptsiterx.com" style="color:#aaa;">hello@scriptsiterx.com</a>
             </div>
           `,
         },
         {
           position: { lat: 37.78517511758828, lng: -122.40699826013112 },
-          title: "ScriptSite - San Francisco",
+          title: "ScriptSite Pharmacy",
           content: `
-            <div style="font-size:14px;">
-              <strong>ScriptSite - San Francisco</strong><br/>
+            <div style="font-size:14px; font-family: "Varela Round", sans-serif; line-height:1.6;">
+              <strong style="color:"#5a5f6e">ScriptSite Pharmacy</strong><br/>
               870 Market St. Ste. 1028<br/>
               San Francisco, CA 94102<br/>
-              <a href="tel:8553288734">(855) 328-8734</a><br/>
-              <a href="mailto:hello@scriptsiterx.com">hello@scriptsiterx.com</a>
+              <a href="tel:8553288734" style="color:#aaa;">(855) 328-8734</a><br/>
+              <a href="mailto:hello@scriptsiterx.com" style="color:#aaa;">hello@scriptsiterx.com</a>
             </div>
           `,
         },
