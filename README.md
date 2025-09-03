@@ -93,7 +93,7 @@ It includes:
 ### 1. Create Google Sheet
 1. Open [Google Sheets](https://sheets.google.com) and create a new sheet.  
 2. Add headers in the first row:
-Name | Subject | Email | Phone | Message | Timestamp
+Name | Subject | Email | Phone | Location | Message | Timestamp
 
 
 3. Note the sheet name (default: `Sheet1`).
