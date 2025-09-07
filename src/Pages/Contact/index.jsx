@@ -87,7 +87,7 @@ const ContactPage = () => {
         {/* Mobile Address */}
         <div className="mobile-address">
           <h2>Location</h2>
-          <h5>Alameda</h5>
+          <h5>Midtown</h5>
           <p>
             2173 Harbor Bay Parkway <br />
             Alameda, CA 94502
@@ -101,7 +101,7 @@ const ContactPage = () => {
         <div className="mobile-address">
           <hr />
           {/* <h2>Location</h2> */}
-          <h5>San Francisco</h5>
+          <h5>ScriptSite</h5>
           <p>
             870 Market St. Ste. 1028
             <br />
