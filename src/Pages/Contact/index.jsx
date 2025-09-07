@@ -94,6 +94,7 @@ const ContactPage = () => {
           </p>
           <p className="telno">
             <a href="tel:5108644199">(510) 864-4199</a>
+            <br/>
             <a href="mailto:hello@scriptsiterx.com">hello@scriptsiterx.com</a>
           </p>
         </div>
