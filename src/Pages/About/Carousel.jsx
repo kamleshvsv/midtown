@@ -26,7 +26,7 @@ const ServicesCarousel = () => {
   infinite: true,
   speed: 500,
   slidesToScroll: 1,
-  slidesToShow:3,
+  slidesToShow:1,
   autoplay: true,
   autoplaySpeed: 3000,
   arrows: true,
