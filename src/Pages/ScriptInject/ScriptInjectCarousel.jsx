@@ -41,7 +41,7 @@ const ScriptInjectCarousel = () => {
       settings: { slidesToShow: 1 }
     },
     {
-      breakpoint: 768, // tablets portrait
+      breakpoint: 760,// tablets portrait
       settings: { slidesToShow: 1, arrows: false, dots: true}
     },
     {

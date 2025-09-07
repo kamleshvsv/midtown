@@ -26,6 +26,7 @@ const ServicesCarousel = () => {
   infinite: true,
   speed: 500,
   slidesToScroll: 1,
+  slidesToShow:3,
   autoplay: true,
   autoplaySpeed: 3000,
   arrows: true,
@@ -41,7 +42,7 @@ const ServicesCarousel = () => {
     settings: { slidesToShow: 1, arrows: false, dots: true }
   },
   {
-    breakpoint: 768,
+    breakpoint: 760,
     settings: { slidesToShow: 1 ,arrows: false, dots: true}
   },
   {
