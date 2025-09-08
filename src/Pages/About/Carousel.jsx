@@ -26,39 +26,24 @@ const ServicesCarousel = () => {
   infinite: true,
   speed: 500,
   slidesToScroll: 1,
-  slidesToShow:1,
+  slidesToShow: 3, // default desktop view (3 cards)
   autoplay: true,
   autoplaySpeed: 3000,
   arrows: true,
   nextArrow: <NextArrow />,
   prevArrow: <PrevArrow />,
   responsive: [
-  {
-    breakpoint: 360,
-    settings: { slidesToShow: 1, arrows: false, dots: true, autoplaySpeed: 2000 }
-  },
-  {
-    breakpoint: 480,
-    settings: { slidesToShow: 1, arrows: false, dots: true }
-  },
-  {
-    breakpoint: 760,
-    settings: { slidesToShow: 1 ,arrows: false, dots: true}
-  },
-  {
-    breakpoint: 1024,
-    settings: { slidesToShow: 2 }
-  },
-  {
-    breakpoint: 1200,
-    settings: { slidesToShow: 2 }
-  },
-  {
-    breakpoint: 1440,
-    settings: { slidesToShow: 3 }
-  }
-]
+    {
+      breakpoint: 1024, // tablet
+      settings: { slidesToShow: 2, arrows: false, dots: true }
+    },
+    {
+      breakpoint: 767, // mobile
+      settings: { slidesToShow: 1, arrows: false, dots: true }
+    }
+  ]
 };
+
 
 
   const services = [

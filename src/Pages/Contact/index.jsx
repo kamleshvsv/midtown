@@ -96,12 +96,13 @@ const ContactPage = () => {
             <a href="tel:5108644199">(510) 864-4199</a>
             <br/>
             <a href="mailto:hello@scriptsiterx.com">hello@scriptsiterx.com</a>
+            <br/>
+             <a href="https://www.midtownpharmacy.com" target="_blank">www.midtownpharmacy.com</a>
           </p>
         </div>
 
         <div className="mobile-address">
           <hr />
-          {/* <h2>Location</h2> */}
           <h5>ScriptSite</h5>
           <p>
             870 Market St. Ste. 1028
@@ -113,6 +114,9 @@ const ContactPage = () => {
             <br />
 
             <a href="mailto:hello@scriptsiterx.com">hello@scriptsiterx.com</a>
+            
+            <br/>
+             <a href="https://www.scriptsiterx.com" target="_blank">www.scriptsiterx.com</a>
           </p>
         </div>
       </section>

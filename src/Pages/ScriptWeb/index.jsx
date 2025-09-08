@@ -1,7 +1,5 @@
 import React from "react";
-import MobileImage from "./../../Assets/img/about/scriptpak_AboutPg_Mobile.webp";
-import laptopImage from "./../../Assets/img/scriptweb/ScriptWeb_Computer_Clipped.webp"
-import ServicesCarousel from "../About/Carousel";
+import laptopImage from "./../../Assets/img/scriptweb/ScriptWeb_Computer_Clipped.png"
 import ScriptWebBanner from "./ScriptWebBanner";
 import ScriptWebBenefits from "./Benefits";
 import "./../../Assets/CSS/scriptweb.css"
