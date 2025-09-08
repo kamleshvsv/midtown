@@ -26,7 +26,7 @@ const ContactPage = () => {
           <div className="right-section">
             <a className="map-info" href="#">
               <img
-               width="30"
+                width="30"
                 height="40"
                 src={mapLocation}
                 alt="map icon"
@@ -76,6 +76,11 @@ const ContactPage = () => {
                   <a href="mailto:hello@scriptsiterx.com">
                     hello@scriptsiterx.com
                   </a>
+                  <br />
+
+                  <a href="https://www.scriptsiterx.com" target="_blank">
+                    www.scriptsiterx.com
+                  </a>
                 </p>
               </div>
             </a>
@@ -94,10 +99,12 @@ const ContactPage = () => {
           </p>
           <p className="telno">
             <a href="tel:5108644199">(510) 864-4199</a>
-            <br/>
+            <br />
             <a href="mailto:hello@scriptsiterx.com">hello@scriptsiterx.com</a>
-            <br/>
-             <a href="https://www.midtownpharmacy.com" target="_blank">www.midtownpharmacy.com</a>
+            <br />
+            <a href="https://www.midtownpharmacy.com" target="_blank">
+              www.midtownpharmacy.com
+            </a>
           </p>
         </div>
 
@@ -114,9 +121,11 @@ const ContactPage = () => {
             <br />
 
             <a href="mailto:hello@scriptsiterx.com">hello@scriptsiterx.com</a>
-            
-            <br/>
-             <a href="https://www.scriptsiterx.com" target="_blank">www.scriptsiterx.com</a>
+
+            <br />
+            <a href="https://www.scriptsiterx.com" target="_blank">
+              www.scriptsiterx.com
+            </a>
           </p>
         </div>
       </section>
